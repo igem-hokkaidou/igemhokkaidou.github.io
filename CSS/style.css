@@ -1,0 +1,178 @@
+﻿@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+ }
+ 
+ body {
+	margin: 0;
+	padding: 60px 0 0 0;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #e6e6e6;
+ }
+
+/* header */
+ header {
+    width: 100%;
+	height: 60px;
+    padding: 30px 4% 10px;
+    background-color: #fff;
+	position: fixed;
+    top: 0;
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+	margin: 0;
+	padding: 0 30px;
+	font-size: 20px;
+	background-image: url(../images/igemhokkaidoulogo.jpg);
+	background-repeat: no-repeat;
+	background-size: 30px;
+ }
+
+ a {	
+	text-decoration: none;
+	color: #4b4b4b;
+ }
+
+ .header-nav ul {
+	list-style: none;
+	margin: 0;
+	display: flex;
+ }
+
+ .header-nav li {
+	margin: 0 0 0 15px;
+	font-size: 14px;
+ }
+
+ .header-nav a:hover {
+	color: rgb(2, 228, 209);
+}
+
+ .header-nav {
+	margin: 0 0 0 auto;
+ }
+ /* header end  */
+
+/* title */
+.home-content {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 600px;
+    background-image: url(../images/hituzigaoka-edit.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#theme {
+	margin: 0;
+	padding: 80px 100px;
+	width: 100%;
+	height: 600px;
+	background: rgba(193, 253, 255, 0.4);
+}
+
+.home-content h1{
+	 margin: 0;
+	 padding: 0;
+	 font-size: 50px;
+	 font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	 color: rgb(2, 34, 121);
+	 line-height: 100px;
+	 font-weight: bold;
+}
+
+.home-content h2{
+	margin: 0 300px;
+	padding: 0;
+	font-size: 30px;
+	font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	color: rgb(2, 34, 121);
+}
+/* title end */
+
+/* contents */
+article {
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/ike.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#article-art {
+	margin: 0;
+	padding: 50px;
+	background-color: rgba(193, 253, 255, 0.75);
+}
+
+article section {
+	margin: 0;
+	padding: 10px;
+	height: 200px;
+    width: 70%;
+	border-bottom-style: ridge;
+	border-bottom-color: royalblue;
+	border-width: 1.5px;
+	float: left;
+}
+
+#twitter {
+	margin: 50px 0 100px 75%;
+	padding: 0;
+	width: 30%
+}
+
+.button a{
+	margin: 0;
+	padding: 10px 15px;
+	text-align: center;
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+}
+
+.button a:link {
+	color: rgb(255, 255, 255);
+	background-color: rgb(5, 118, 247);
+}
+
+.button a:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(5, 84, 173);
+}
+/* content end */
+
+/* footer */
+footer{
+	margin: 0;
+	padding: 15px;
+    width: 100%;
+    background-color: rgb(7, 28, 48);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.footer-nav li{
+	color: rgb(255, 255, 255);
+	display: inline;	
+}
+
+.footer-nav a {
+	color: rgb(255, 255, 255);
+}
+
+.footer-nav a:hover {
+	color: rgb(2, 228, 209);
+}
+
+#footerlogo {
+	position: absolute;
+	margin: 0 0 0 70%;
+}
+
+/* footer end */
