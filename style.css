@@ -28,7 +28,7 @@ header h1 {
 	margin: 0;
 	padding: 0 30px;
 	font-size: 20px;
-	background-image: url(../images/igemhokkaidoulogo.jpg);
+	background-image: url(igemhokkaidoulogo.jpg);
 	background-repeat: no-repeat;
 	background-size: 30px;
  }
@@ -64,7 +64,7 @@ header h1 {
 	padding: 0;
 	width: 100%;
 	height: 600px;
-    background-image: url(../images/hituzigaoka-edit.jpg) ;
+    background-image: url(hituzigaoka-edit.jpg) ;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -100,7 +100,7 @@ header h1 {
 article {
 	margin: 0;
 	padding: 0;
-	background-image: url(../images/ike.jpg) ;
+	background-image: url(ike.jpg) ;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
